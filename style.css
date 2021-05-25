@@ -1,0 +1,426 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#myBtn1 {
+    cursor: pointer;
+    border: 2px solid rgb(105, 105, 4);
+    width: 50%;
+    height: 50vh;
+    float: left;
+    background-image: url(images/army2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.6; */
+}
+
+.p1 {
+    font-size: 30px;
+    opacity: 5;
+    font-weight: bolder;
+    /* margin: -174px;   */
+}
+
+#myBtn2 {
+    border: 2px solid rgb(65, 65, 235);
+    cursor: pointer;
+    width: 50%;
+    height: 50vh;
+    float: left;
+    background-image: url(images/airforce2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p2 {
+    font-size: 30px;
+    font-weight: bolder;
+    /* margin: -174px; */
+}
+
+#myBtn3 {
+    border: 2px solid rgb(65, 65, 235);
+    cursor: pointer;
+    width: 50%;
+    height: 50vh;
+    float: left;
+    background-image: url(images/navy1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p3 {
+    font-size: 30px;
+    opacity: 5;
+    font-weight: bolder;
+    /* margin: -174px; */
+}
+
+#myBtn4 {
+    border: 2px solid rgb(105, 105, 4);
+    cursor: pointer;
+    width: 50%;
+    height: 50vh;
+    float: left;
+    background-image: url(images/sf4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p4 {
+    color: rgb(58, 75, 37);
+    text-shadow: 1px 1px 5px rgb(0, 8, 8);
+    font-size: 30px;
+    opacity: 5;
+    font-weight: bolder;
+    /* margin: -4px; */
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    /* padding-top: 100px; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(5, 5, 5, 0.8);
+}
+
+.content1,
+.content2,
+.content3,
+.content4 {
+    background-color: #f1dcb4;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 75vh;
+    padding: 40px 20px;
+    /* padding-top: 30px; */
+}
+
+.content1 img,
+.content2 img,
+.content3 img,
+.content4 img {
+    float: left;
+    width: 50%;
+    /* margin: auto 0px; */
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 70vh;
+    background-size: cover;
+}
+
+.content1 h2,
+.content2 h2,
+.content3 h2,
+.content4 h2 {
+    font-size: 25px;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+.content1 p,
+.content2 p,
+.content3 p,
+.content4 p {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 43%;
+    text-align: justify;
+    margin: 30px;
+    /* padding-top: 20px; */
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.close1,
+.close2,
+.close3,
+.close4 {
+    color: #aaaaaa;
+    float: right;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: -30px;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close4:hover,
+.close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Responsive and Media Queries */
+
+@media (min-width:2560px) {
+    .p1,
+    .p2,
+    .p3,
+    .p4 {
+        font-size: 50px;
+    }
+    .content1,
+    .content2,
+    .content3,
+    .content4 {
+        padding: 40px;
+    }
+    .content1 p,
+    .content2 p,
+    .content3 p,
+    .content4 p {
+        font-size: 28px;
+        width: 45%;
+        line-height: 40px;
+    }
+    .content1 h2,
+    .content2 h2,
+    .content3 h2,
+    .content4 h2 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .close1,
+    .close2,
+    .close3,
+    .close4 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    #myBtn2 {
+        background-image: url(images/airforce21.jpg);
+    }
+    .content1 img,
+    .content2 img,
+    .content3 img,
+    .content4 img {
+        margin: 30px 0px 20px 0px;
+        width: 50%;
+        height: 60vh;
+    }
+    .content1 h2,
+    .content2 h2,
+    .content3 h2,
+    .content4 h2 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .content1 p,
+    .content2 p,
+    .content3 p,
+    .content4 p {
+        font-size: 15px;
+        width: 40%;
+        line-height: 20px;
+        margin-top: -10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #myBtn1 {
+        background-image: url(images/army21.jpg);
+    }
+    #myBtn2 {
+        background-image: url(images/airforce31.jpg);
+    }
+    .p1,
+    .p2,
+    .p3,
+    .p4 {
+        color: rgb(10, 10, 10);
+        text-shadow: 1px 1px 8px white;
+    }
+    .content1,
+    .content2,
+    .content3,
+    .content4 {
+        height: 70vh;
+        text-align: center;
+    }
+    .content1 img,
+    .content2 img,
+    .content3 img,
+    .content4 img {
+        float: none;
+        width: 60%;
+        height: 40vh;
+    }
+    .content3 img {
+        width: 50%;
+    }
+    .content1 p,
+    .content2 p,
+    .content3 p,
+    .content4 p {
+        float: none;
+        margin-top: -10px;
+        font-size: 12px;
+        width: 90%;
+        line-height: 15px;
+    }
+    .content1 h2,
+    .content2 h2,
+    .content3 h2,
+    .content4 h2 {
+        margin-top: 5px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    #myBtn1 {
+        background-image: url(images/army31.jpg);
+        /* background-size: contain; */
+    }
+    #myBtn2 {
+        background-image: url(images/airforce4.jpeg);
+    }
+    #myBtn3 {
+        background-image: url(images/navy4.jpg);
+    }
+    .p1,
+    .p2,
+    .p3,
+    .p4 {
+        color: rgb(10, 10, 10);
+        font-size: 20px;
+        text-shadow: 1px 1px 8px white;
+    }
+    .content1,
+    .content2,
+    .content3,
+    .content4 {
+        height: 70vh;
+        text-align: center;
+    }
+    .content1 img,
+    .content2 img,
+    .content3 img,
+    .content4 img {
+        float: none;
+        width: 60%;
+        height: 30vh;
+    }
+    .content3 img {
+        width: 50%;
+    }
+    .content1 p,
+    .content2 p,
+    .content3 p,
+    .content4 p {
+        float: none;
+        margin-top: -10px;
+        font-size: 10px;
+        width: 90%;
+        line-height: 13px;
+    }
+    .content1 h2,
+    .content2 h2,
+    .content3 h2,
+    .content4 h2 {
+        margin-top: 5px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+    #myBtn1 {
+        background-image: url(images/armym1.jpg);
+        /* background-size: contain; */
+    }
+    #myBtn2 {
+        background-image: url(images/airm1.jpg);
+    }
+    #myBtn3 {
+        background-image: url(images/navym1.jpg);
+    }
+    #myBtn4 {
+        background-image: url(images/sf1.jpg);
+    }
+    .p1,
+    .p2,
+    .p3,
+    .p4 {
+        font-size: 13px;
+        color: rgb(10, 10, 10);
+        color: white;
+        text-shadow: 1px 1px 8px rgb(7, 7, 7);
+    }
+    .p3 {
+        text-shadow: px 2px 4px rgb(7, 7, 7);
+    }
+    .content1,
+    .content2,
+    .content3,
+    .content4 {
+        height: 70vh;
+        text-align: center;
+    }
+    .content1 img,
+    .content2 img,
+    .content3 img,
+    .content4 img {
+        float: none;
+        width: 60%;
+        height: 30vh;
+    }
+    .content3 img {
+        width: 50%;
+    }
+    .content1 p,
+    .content2 p,
+    .content3 p,
+    .content4 p {
+        float: none;
+        margin-top: -10px;
+        font-size: 10px;
+        width: 90%;
+        line-height: 13px;
+    }
+    .content1 h2,
+    .content2 h2,
+    .content3 h2,
+    .content4 h2 {
+        margin-top: 5px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
