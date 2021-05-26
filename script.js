@@ -51,19 +51,13 @@ window.onclick = function(event) {
     if (event.target == modal1) {
         modal1.style.display = "none";
     }
-}
-window.onclick = function(event1) {
-    if (event1.target == modal2) {
+    if (event.target == modal2) {
         modal2.style.display = "none";
     }
-}
-window.onclick = function(event2) {
-    if (event2.target == modal3) {
+    if (event.target == modal3) {
         modal3.style.display = "none";
     }
-}
-window.onclick = function(event3) {
-    if (event3.target == modal4) {
+    if (event.target == modal4) {
         modal4.style.display = "none";
     }
 }
